@@ -35,4 +35,4 @@
 <!-- <Youtube id={test} />  -->
 
 <Button on:click={toggleButtonMagic}>Click me</Button>
-{#if buttonmagic}{:else}{/if}
+{#if buttonmagic}hi{:else}hi there part 1{/if}
